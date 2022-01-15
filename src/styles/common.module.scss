@@ -1,1 +1,20 @@
 // TODO
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+
+    .postInfos {
+        display: flex;
+        color: #BBBBBB;
+        font-size: 14px;
+        font-weight: 400;
+
+        div + div {
+            margin-left: 1rem;
+        }
+    }
+
+}
