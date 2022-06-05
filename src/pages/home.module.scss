@@ -1,11 +1,10 @@
-// TODO
 .posts {
     margin: 65px 0;
 
     .post {
 
         & + .post {
-            margin-top: 48px;
+            margin-top: 3rem;
         }
 
         h1 {
@@ -24,19 +23,8 @@
 
         &:hover {
             h1 {
-                color: #FF57B2;
+                color: var(--highlight);
             }
         }
     }
-}
-
-.loadMorePostsButton {
-    color: #FF57B2;
-    font-weight: 600;
-    font-size: 18px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    width: 18%;
-    text-align: left;
 }
